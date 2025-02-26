@@ -1,0 +1,10 @@
+	#logoContainer {
+		position: absolute;
+		z-index: 100;
+		top: -15px;
+		left: -1px;
+		background-color: transparent;
+		border: transparent;
+		width: 309px;
+		height: 100px;
+	}

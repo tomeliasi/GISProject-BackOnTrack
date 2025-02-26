@@ -1,0 +1,89 @@
+body {
+  font-family: Arial;
+  color: black;
+  
+}
+
+.split {
+  height: 100%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 0px;
+  
+}
+
+.left {
+  left: 0;
+  width: 85%;
+  background-color: #111;
+}
+
+.right {
+  right: 0;
+  width: 15%;
+  background-color: white;
+  text-align: center;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.centered img {
+  width: 150px;
+  border-radius: 50%;
+}
+
+.smallButton{
+  width: 100px;
+  height: 50px;
+  padding: 5px; 
+}
+.bigButton{
+  width: 200px;
+  height: 70px;
+  padding: 15px; 
+}
+
+.buttonRectangle {
+  border-radius: 25px;
+  background-color: #82002e;
+  border: 2px solid black;
+  border-radius: 16px; 
+  text-align: center;
+  text-decoration: none;  
+  font-family: Arial, Helvetica, sans-serif;
+  justify-content: center;
+  align-items: center;
+  font-size: 18px;
+  cursor: pointer;
+  margin: 20px;
+  color: white;
+}
+.buttonRectangle:hover{
+  background-color: #E24E4E;
+
+}
+
+.rcorners {
+  border-radius: 25px;
+  background: #ffffff;
+  padding: 20px; 
+  width: 160px;
+  height: 300px;
+  border: 2px solid black; 
+  text-align: center; 
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  align-items: center;
+  margin: 20px
+}
+#spacer {height:50px;}
+
+
